@@ -4,6 +4,7 @@ theme: Singapore
 author: نیما عسکریان
 header-includes:
 - \usepackage{float}
+- \usepackage{qrcode}
 - \usepackage{hyperref}
 - \usepackage{minted}
 - \usepackage{multicol}
@@ -207,6 +208,8 @@ CPU میتونه در حالات مختلفی باشه.
 # خروجیش چیه!؟
 ![اجرای نسخه آخر بوتلودر با QEMU](/home/nima/Pictures/Screenshots/2024-10-07-212315-snap.png)
 
+
+
 # رفرنس ها
 `\begin{latin}`{=latex} 
 
@@ -215,5 +218,7 @@ CPU میتونه در حالات مختلفی باشه.
 - https://wiki.osdev.org
 
 `\end{latin}`{=latex} 
+
+سورس کد نهایی:\quad \qrcode{https://raw.githubusercontent.com/nimaaskarian/diy-bootloader/refs/heads/master/bootloader.s}
 
 !ممنون که خوابتون نبرد
