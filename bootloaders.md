@@ -64,6 +64,15 @@ header-includes:
 ![Libreboot](libreboot.jpg){ height=50% }
 :::
 
+# بوت لودر های اوپن سورس
+
+`\begin{latin}`{=latex}
+
+- GRUB
+- systemd-boot
+
+`\end{latin}`{=latex}
+
 # بوت لودر چیه؟
 بوت لودر (یا بوت استرپ لودر) نرم افزاریه که توسط 
 \LR{System Firmware}
@@ -206,7 +215,7 @@ CPU میتونه در حالات مختلفی باشه.
 \end{latin}
 
 # خروجیش چیه!؟
-![اجرای نسخه آخر بوتلودر با QEMU](/home/nima/Pictures/Screenshots/2024-10-07-212315-snap.png)
+![اجرای نسخه آخر بوتلودر با QEMU](/home/nima/Pictures/Screenshots/2024-10-08-072346-snap.png)
 
 
 
