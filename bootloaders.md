@@ -133,7 +133,7 @@ CPU میتونه در حالات مختلفی باشه.
 \begin{figure}
 
 \begin{latin}
-\inputminted{nasm}{bootloader-start.s}
+\inputminted{nasm}{assets/bootloader-start.s}
 \end{latin}
 \caption{فایل bootloader.s}
 \end{figure}
@@ -150,7 +150,7 @@ CPU میتونه در حالات مختلفی باشه.
 \end{latin}
 
 ::: center
-![اجرا با QEMU](2024-10-05-175613-snap.png){width=95%}
+![اجرا با QEMU](assets/2024-10-05-175613-snap.png){width=95%}
 :::
 
 # رفتن به \LR{Protected Mode}
@@ -168,7 +168,7 @@ CPU میتونه در حالات مختلفی باشه.
 \begin{figure}
 \begin{latin}
 
-\inputminted{nasm}{bootloader-a20.s}
+\inputminted{nasm}{assets/bootloader-a20.s}
 
 \end{latin}
 
@@ -181,7 +181,7 @@ CPU میتونه در حالات مختلفی باشه.
 \begin{figure}
 \begin{latin}
 
-\inputminted{nasm}{bootloader-gdt.s}
+\inputminted{nasm}{assets/bootloader-gdt.s}
 
 \end{latin}
 
@@ -196,26 +196,26 @@ CPU میتونه در حالات مختلفی باشه.
 
 \begin{latin}
 
-\inputminted{nasm}{bootloader-gdt-2.s}
+\inputminted{nasm}{assets/bootloader-gdt-2.s}
 
 \end{latin}
 
 # رفتن به حالت ۳۲ بیتی
 \begin{latin}
 
-\inputminted{nasm}{bootloader-32bit.s}
+\inputminted{nasm}{assets/bootloader-32bit.s}
 
 \end{latin}
 
 # نوشتن متن روی بافر متنی VGA
 \begin{latin}
 
-\inputminted{nasm}{bootloader-vga.s}
+\inputminted{nasm}{assets/bootloader-vga.s}
 
 \end{latin}
 
 # خروجیش چیه!؟
-![اجرای نسخه آخر بوتلودر با QEMU](/home/nima/Pictures/Screenshots/2024-10-08-072346-snap.png)
+![اجرای نسخه آخر بوتلودر با QEMU](assets/2024-10-08-072346-snap.png)
 
 
 
@@ -228,6 +228,6 @@ CPU میتونه در حالات مختلفی باشه.
 
 `\end{latin}`{=latex} 
 
-سورس کد نهایی:\quad \qrcode{https://raw.githubusercontent.com/nimaaskarian/diy-bootloader/refs/heads/master/bootloader.s}
+سورس کد نهایی:\quad \qrcode{https://raw.githubusercontent.com/nimaaskarian/diy-bootloader/refs/heads/master/assets/bootloader.s}
 
 !ممنون که خوابتون نبرد

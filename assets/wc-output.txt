@@ -1,0 +1,2 @@
+[nima@nimas-pc presentation]$ wc -c bootloader.bin
+512 bootloader.bin
